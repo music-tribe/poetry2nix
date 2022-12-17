@@ -146,5 +146,6 @@ builtins.removeAttrs
   missing-iswheel = callTest ./missing-iswheel { };
   wheel-wheel = callTest ./wheel-wheel { };
   fancycompleter-wheel = callTest ./fancycompleter-wheel { };
+  grpcio-wheel = callTest ./grpcio-wheel { };
 }
   skipTests
