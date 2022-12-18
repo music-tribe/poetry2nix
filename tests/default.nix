@@ -148,5 +148,6 @@ builtins.removeAttrs
   fancycompleter-wheel = callTest ./fancycompleter-wheel { };
   grpcio-wheel = callTest ./grpcio-wheel { };
   grpcio-no-wheel = callTest ./grpcio-no-wheel { };
+  panel-wheel = callTest ./panel-wheel { };
 }
   skipTests
